@@ -20,6 +20,9 @@ const useFetch = ({ keyword }) => {
         if (keyword) fetchGifs();
     }, [keyword]);
 
+
+
+
     return gifUrl;
 };
 
